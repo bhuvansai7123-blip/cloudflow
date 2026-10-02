@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cloudflow-xi.vercel.app/sitemap.xml

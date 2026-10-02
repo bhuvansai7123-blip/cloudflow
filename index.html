@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudFlow | AI-powered cloud monitoring (demo)</title>
+    <meta name="description" content="CloudFlow is a fictional AI-powered cloud monitoring platform. A frontend portfolio project built with React, Vite, Tailwind CSS and Recharts." />
+    <meta name="theme-color" content="#0c0e11" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://cloudflow-xi.vercel.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CloudFlow" />
+    <meta property="og:title" content="CloudFlow | Cloud intelligence, without the complexity." />
+    <meta property="og:description" content="Monitor your cloud infrastructure with AI-powered insights. A fictional SaaS demo built with React." />
+    <meta property="og:url" content="https://cloudflow-xi.vercel.app/" />
+    <meta property="og:image" content="https://cloudflow-xi.vercel.app/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CloudFlow | Cloud intelligence, without the complexity." />
+    <meta name="twitter:description" content="Monitor your cloud infrastructure with AI-powered insights. A fictional SaaS demo built with React." />
+    <meta name="twitter:image" content="https://cloudflow-xi.vercel.app/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <script>
+      (function () {
+        var root = document.documentElement
+        root.classList.add('js')
+        try {
+          var saved = localStorage.getItem('cf-theme')
+          if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved)
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>CloudFlow is a React demo and needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
